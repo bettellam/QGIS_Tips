@@ -18,4 +18,5 @@ I parametri sono memorizzati in variabili utente nel progetto corrente:
 - Con Direzione **DOWN** : viene individuata la **linea di impluvio** partente dal punto di click con il mouse ( massima pendenza verso valle, linea di deflusso).
 - Con Direzione **UP** : viene individuata la **linea di displuvio** partente dal punto di click con il mouse ( massima pendenza verso monte).
 - I file generati (LineStringZ) **water_flow_d8_xxxx** vengono caricati automaticamente nel LayerGroup impostato (variabile: **WATER_FLOW_RESULT_Group**).
-- L'utente dovrà salvare i file  **water_flow_d8_xxxx** nel modo più opportunosono in quanto sono generati in **memory** !
+- L'utente dovrà salvare i file  **water_flow_d8_xxxx** nel modo più opportuno in quanto sono generati in **memory** !
+- Il Layer **area_update_etrs89** è un poligono che copre il territorio della Regione del Veneto, l'utente deve modificare tale poligono per adattarlo alla sua area di lavoro/interesse!!
