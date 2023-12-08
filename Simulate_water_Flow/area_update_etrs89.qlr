@@ -1,0 +1,503 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group groupLayer="" checked="Qt::Checked" name="" expanded="1">
+    <customproperties>
+      <Option/>
+    </customproperties>
+    <layer-tree-layer legend_exp="" patch_size="-1,-1" checked="Qt::Checked" name="area_update_etrs89" providerKey="ogr" expanded="1" id="area_update_etrs89_b71be8c4_3c20_4d26_8eae_c4a468cb4070" legend_split_behavior="0" source="./Water_Flow_data.gpkg|layername=area_update_etrs89">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer simplifyAlgorithm="0" geometry="Polygon" readOnly="0" wkbType="MultiPolygon" simplifyLocal="1" autoRefreshTime="0" autoRefreshMode="Disabled" type="vector" styleCategories="AllStyleCategories" symbologyReferenceScale="-1" refreshOnNotifyMessage="" minScale="0" simplifyDrawingHints="1" simplifyDrawingTol="1" simplifyMaxScale="1" maxScale="0" labelsEnabled="0" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>10.33333299999999966</xmin>
+        <ymin>44.5</ymin>
+        <xmax>13.33333299999999966</xmax>
+        <ymax>46.83333300000000321</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>10.33333299999999966</xmin>
+        <ymin>44.5</ymin>
+        <xmax>13.333332999999989</xmax>
+        <ymax>46.83333299999992505</ymax>
+      </wgs84extent>
+      <id>area_update_etrs89_b71be8c4_3c20_4d26_8eae_c4a468cb4070</id>
+      <datasource>./Water_Flow_data.gpkg|layername=area_update_etrs89</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>area_update_etrs89</layername>
+      <srs>
+        <spatialrefsys nativeFormat="Wkt">
+          <wkt>GEOGCRS["ETRS89",ENSEMBLE["European Terrestrial Reference System 1989 ensemble",MEMBER["European Terrestrial Reference Frame 1989"],MEMBER["European Terrestrial Reference Frame 1990"],MEMBER["European Terrestrial Reference Frame 1991"],MEMBER["European Terrestrial Reference Frame 1992"],MEMBER["European Terrestrial Reference Frame 1993"],MEMBER["European Terrestrial Reference Frame 1994"],MEMBER["European Terrestrial Reference Frame 1996"],MEMBER["European Terrestrial Reference Frame 1997"],MEMBER["European Terrestrial Reference Frame 2000"],MEMBER["European Terrestrial Reference Frame 2005"],MEMBER["European Terrestrial Reference Frame 2014"],ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[0.1]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Spatial referencing."],AREA["Europe - onshore and offshore: Albania; Andorra; Austria; Belgium; Bosnia and Herzegovina; Bulgaria; Croatia; Cyprus; Czechia; Denmark; Estonia; Faroe Islands; Finland; France; Germany; Gibraltar; Greece; Hungary; Ireland; Italy; Kosovo; Latvia; Liechtenstein; Lithuania; Luxembourg; Malta; Moldova; Monaco; Montenegro; Netherlands; North Macedonia; Norway including Svalbard and Jan Mayen; Poland; Portugal; Romania; San Marino; Serbia; Slovakia; Slovenia; Spain; Sweden; Switzerland; United Kingdom (UK) including Channel Islands and Isle of Man; Vatican City State."],BBOX[32.88,-16.1,84.73,40.18]],ID["EPSG",4258]]</wkt>
+          <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+          <srsid>3390</srsid>
+          <srid>4258</srid>
+          <authid>EPSG:4258</authid>
+          <description>ETRS89</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <dates/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys nativeFormat="Wkt">
+            <wkt>GEOGCRS["ETRS89",ENSEMBLE["European Terrestrial Reference System 1989 ensemble",MEMBER["European Terrestrial Reference Frame 1989"],MEMBER["European Terrestrial Reference Frame 1990"],MEMBER["European Terrestrial Reference Frame 1991"],MEMBER["European Terrestrial Reference Frame 1992"],MEMBER["European Terrestrial Reference Frame 1993"],MEMBER["European Terrestrial Reference Frame 1994"],MEMBER["European Terrestrial Reference Frame 1996"],MEMBER["European Terrestrial Reference Frame 1997"],MEMBER["European Terrestrial Reference Frame 2000"],MEMBER["European Terrestrial Reference Frame 2005"],MEMBER["European Terrestrial Reference Frame 2014"],ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[0.1]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Spatial referencing."],AREA["Europe - onshore and offshore: Albania; Andorra; Austria; Belgium; Bosnia and Herzegovina; Bulgaria; Croatia; Cyprus; Czechia; Denmark; Estonia; Faroe Islands; Finland; France; Germany; Gibraltar; Greece; Hungary; Ireland; Italy; Kosovo; Latvia; Liechtenstein; Lithuania; Luxembourg; Malta; Moldova; Monaco; Montenegro; Netherlands; North Macedonia; Norway including Svalbard and Jan Mayen; Poland; Portugal; Romania; San Marino; Serbia; Slovakia; Slovenia; Spain; Sweden; Switzerland; United Kingdom (UK) including Channel Islands and Isle of Man; Vatican City State."],BBOX[32.88,-16.1,84.73,40.18]],ID["EPSG",4258]]</wkt>
+            <proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</proj4>
+            <srsid>3390</srsid>
+            <srid>4258</srid>
+            <authid>EPSG:4258</authid>
+            <description>ETRS89</description>
+            <projectionacronym>longlat</projectionacronym>
+            <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial minx="179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" maxy="-179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" dimensions="2" minz="0" maxx="-179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" crs="EPSG:4258" miny="179769313486231570814527423731704356798070567525844996598917476803157260780028538760589558632766878171540458953514382464234321326889464182768467546703537516986049910576551282076245490090389328944075868508455133942304583236903222948165808559332123348274797826204144723168738177180919299881250404026184124858368" maxz="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="area_update_etrs89">
+        <map-layer-style name="area_update_etrs89"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal startExpression="" fixedDuration="0" enabled="0" startField="" endExpression="" mode="0" limitMode="0" endField="" accumulate="0" durationField="" durationUnit="min">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <elevation extrusionEnabled="0" zoffset="0" extrusion="0" zscale="1" binding="Centroid" clamping="Terrain" respectLayerSymbol="1" showMarkerSymbolInSurfacePlots="0" symbology="Line" type="IndividualFeatures">
+        <data-defined-properties>
+          <Option type="Map">
+            <Option value="" name="name" type="QString"/>
+            <Option name="properties"/>
+            <Option value="collection" name="type" type="QString"/>
+          </Option>
+        </data-defined-properties>
+        <profileLineSymbol>
+          <symbol force_rhr="0" is_animated="0" clip_to_extent="1" name="" alpha="1" frame_rate="10" type="line">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option value="" name="name" type="QString"/>
+                <Option name="properties"/>
+                <Option value="collection" name="type" type="QString"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" locked="0" class="SimpleLine" pass="0" id="{d7b8d05b-074c-447f-b616-121790988bce}">
+              <Option type="Map">
+                <Option value="0" name="align_dash_pattern" type="QString"/>
+                <Option value="square" name="capstyle" type="QString"/>
+                <Option value="5;2" name="customdash" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="customdash_map_unit_scale" type="QString"/>
+                <Option value="MM" name="customdash_unit" type="QString"/>
+                <Option value="0" name="dash_pattern_offset" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="dash_pattern_offset_map_unit_scale" type="QString"/>
+                <Option value="MM" name="dash_pattern_offset_unit" type="QString"/>
+                <Option value="0" name="draw_inside_polygon" type="QString"/>
+                <Option value="bevel" name="joinstyle" type="QString"/>
+                <Option value="133,182,111,255" name="line_color" type="QString"/>
+                <Option value="solid" name="line_style" type="QString"/>
+                <Option value="0.6" name="line_width" type="QString"/>
+                <Option value="MM" name="line_width_unit" type="QString"/>
+                <Option value="0" name="offset" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="offset_map_unit_scale" type="QString"/>
+                <Option value="MM" name="offset_unit" type="QString"/>
+                <Option value="0" name="ring_filter" type="QString"/>
+                <Option value="0" name="trim_distance_end" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="trim_distance_end_map_unit_scale" type="QString"/>
+                <Option value="MM" name="trim_distance_end_unit" type="QString"/>
+                <Option value="0" name="trim_distance_start" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="trim_distance_start_map_unit_scale" type="QString"/>
+                <Option value="MM" name="trim_distance_start_unit" type="QString"/>
+                <Option value="0" name="tweak_dash_pattern_on_corners" type="QString"/>
+                <Option value="0" name="use_custom_dash" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="width_map_unit_scale" type="QString"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileLineSymbol>
+        <profileFillSymbol>
+          <symbol force_rhr="0" is_animated="0" clip_to_extent="1" name="" alpha="1" frame_rate="10" type="fill">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option value="" name="name" type="QString"/>
+                <Option name="properties"/>
+                <Option value="collection" name="type" type="QString"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" locked="0" class="SimpleFill" pass="0" id="{262aa6c6-63e7-43fb-a257-d888d66ac345}">
+              <Option type="Map">
+                <Option value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale" type="QString"/>
+                <Option value="133,182,111,255" name="color" type="QString"/>
+                <Option value="bevel" name="joinstyle" type="QString"/>
+                <Option value="0,0" name="offset" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="offset_map_unit_scale" type="QString"/>
+                <Option value="MM" name="offset_unit" type="QString"/>
+                <Option value="95,130,79,255" name="outline_color" type="QString"/>
+                <Option value="solid" name="outline_style" type="QString"/>
+                <Option value="0.2" name="outline_width" type="QString"/>
+                <Option value="MM" name="outline_width_unit" type="QString"/>
+                <Option value="solid" name="style" type="QString"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileFillSymbol>
+        <profileMarkerSymbol>
+          <symbol force_rhr="0" is_animated="0" clip_to_extent="1" name="" alpha="1" frame_rate="10" type="marker">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option value="" name="name" type="QString"/>
+                <Option name="properties"/>
+                <Option value="collection" name="type" type="QString"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" locked="0" class="SimpleMarker" pass="0" id="{eac41f87-3e70-4656-b6f6-2cfb7a9ba86b}">
+              <Option type="Map">
+                <Option value="0" name="angle" type="QString"/>
+                <Option value="square" name="cap_style" type="QString"/>
+                <Option value="133,182,111,255" name="color" type="QString"/>
+                <Option value="1" name="horizontal_anchor_point" type="QString"/>
+                <Option value="bevel" name="joinstyle" type="QString"/>
+                <Option value="diamond" name="name" type="QString"/>
+                <Option value="0,0" name="offset" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="offset_map_unit_scale" type="QString"/>
+                <Option value="MM" name="offset_unit" type="QString"/>
+                <Option value="95,130,79,255" name="outline_color" type="QString"/>
+                <Option value="solid" name="outline_style" type="QString"/>
+                <Option value="0.2" name="outline_width" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="outline_width_map_unit_scale" type="QString"/>
+                <Option value="MM" name="outline_width_unit" type="QString"/>
+                <Option value="diameter" name="scale_method" type="QString"/>
+                <Option value="3" name="size" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="size_map_unit_scale" type="QString"/>
+                <Option value="MM" name="size_unit" type="QString"/>
+                <Option value="1" name="vertical_anchor_point" type="QString"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileMarkerSymbol>
+      </elevation>
+      <renderer-v2 symbollevels="0" enableorderby="0" forceraster="0" referencescale="-1" type="singleSymbol">
+        <symbols>
+          <symbol force_rhr="0" is_animated="0" clip_to_extent="1" name="0" alpha="1" frame_rate="10" type="fill">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option value="" name="name" type="QString"/>
+                <Option name="properties"/>
+                <Option value="collection" name="type" type="QString"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" locked="0" class="SimpleFill" pass="0" id="{ea9818ec-62a4-43b7-9dea-789a961fe3d9}">
+              <Option type="Map">
+                <Option value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale" type="QString"/>
+                <Option value="133,182,111,255" name="color" type="QString"/>
+                <Option value="bevel" name="joinstyle" type="QString"/>
+                <Option value="0,0" name="offset" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="offset_map_unit_scale" type="QString"/>
+                <Option value="MM" name="offset_unit" type="QString"/>
+                <Option value="35,35,35,255" name="outline_color" type="QString"/>
+                <Option value="solid" name="outline_style" type="QString"/>
+                <Option value="0.26" name="outline_width" type="QString"/>
+                <Option value="MM" name="outline_width_unit" type="QString"/>
+                <Option value="no" name="style" type="QString"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <selection mode="Default">
+        <selectionColor invalid="1"/>
+        <selectionSymbol>
+          <symbol force_rhr="0" is_animated="0" clip_to_extent="1" name="" alpha="1" frame_rate="10" type="fill">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option value="" name="name" type="QString"/>
+                <Option name="properties"/>
+                <Option value="collection" name="type" type="QString"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" locked="0" class="SimpleFill" pass="0" id="{419d5e17-f85c-4737-acf5-77f63a05947e}">
+              <Option type="Map">
+                <Option value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale" type="QString"/>
+                <Option value="0,0,255,255" name="color" type="QString"/>
+                <Option value="bevel" name="joinstyle" type="QString"/>
+                <Option value="0,0" name="offset" type="QString"/>
+                <Option value="3x:0,0,0,0,0,0" name="offset_map_unit_scale" type="QString"/>
+                <Option value="MM" name="offset_unit" type="QString"/>
+                <Option value="35,35,35,255" name="outline_color" type="QString"/>
+                <Option value="solid" name="outline_style" type="QString"/>
+                <Option value="0.26" name="outline_width" type="QString"/>
+                <Option value="MM" name="outline_width_unit" type="QString"/>
+                <Option value="solid" name="style" type="QString"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </selectionSymbol>
+      </selection>
+      <customproperties>
+        <Option type="Map">
+          <Option value="0" name="embeddedWidgets/count" type="int"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
+        </Option>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory lineSizeScale="3x:0,0,0,0,0,0" minimumSize="0" sizeType="MM" minScaleDenominator="0" spacingUnit="MM" scaleBasedVisibility="0" penAlpha="255" labelPlacementMethod="XHeight" width="15" height="15" showAxis="1" spacing="5" direction="0" penWidth="0" sizeScale="3x:0,0,0,0,0,0" scaleDependency="Area" rotationOffset="270" opacity="1" backgroundAlpha="255" enabled="0" penColor="#000000" barWidth="5" lineSizeType="MM" maxScaleDenominator="0" backgroundColor="#ffffff" spacingUnitScale="3x:0,0,0,0,0,0" diagramOrientation="Up">
+          <fontProperties bold="0" underline="0" italic="0" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" strikethrough="0" style=""/>
+          <attribute color="#000000" field="" colorOpacity="1" label=""/>
+          <axisSymbol>
+            <symbol force_rhr="0" is_animated="0" clip_to_extent="1" name="" alpha="1" frame_rate="10" type="line">
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" name="name" type="QString"/>
+                  <Option name="properties"/>
+                  <Option value="collection" name="type" type="QString"/>
+                </Option>
+              </data_defined_properties>
+              <layer enabled="1" locked="0" class="SimpleLine" pass="0" id="{33df0252-9fcb-4197-adc6-263e3bba9bdb}">
+                <Option type="Map">
+                  <Option value="0" name="align_dash_pattern" type="QString"/>
+                  <Option value="square" name="capstyle" type="QString"/>
+                  <Option value="5;2" name="customdash" type="QString"/>
+                  <Option value="3x:0,0,0,0,0,0" name="customdash_map_unit_scale" type="QString"/>
+                  <Option value="MM" name="customdash_unit" type="QString"/>
+                  <Option value="0" name="dash_pattern_offset" type="QString"/>
+                  <Option value="3x:0,0,0,0,0,0" name="dash_pattern_offset_map_unit_scale" type="QString"/>
+                  <Option value="MM" name="dash_pattern_offset_unit" type="QString"/>
+                  <Option value="0" name="draw_inside_polygon" type="QString"/>
+                  <Option value="bevel" name="joinstyle" type="QString"/>
+                  <Option value="35,35,35,255" name="line_color" type="QString"/>
+                  <Option value="solid" name="line_style" type="QString"/>
+                  <Option value="0.26" name="line_width" type="QString"/>
+                  <Option value="MM" name="line_width_unit" type="QString"/>
+                  <Option value="0" name="offset" type="QString"/>
+                  <Option value="3x:0,0,0,0,0,0" name="offset_map_unit_scale" type="QString"/>
+                  <Option value="MM" name="offset_unit" type="QString"/>
+                  <Option value="0" name="ring_filter" type="QString"/>
+                  <Option value="0" name="trim_distance_end" type="QString"/>
+                  <Option value="3x:0,0,0,0,0,0" name="trim_distance_end_map_unit_scale" type="QString"/>
+                  <Option value="MM" name="trim_distance_end_unit" type="QString"/>
+                  <Option value="0" name="trim_distance_start" type="QString"/>
+                  <Option value="3x:0,0,0,0,0,0" name="trim_distance_start_map_unit_scale" type="QString"/>
+                  <Option value="MM" name="trim_distance_start_unit" type="QString"/>
+                  <Option value="0" name="tweak_dash_pattern_on_corners" type="QString"/>
+                  <Option value="0" name="use_custom_dash" type="QString"/>
+                  <Option value="3x:0,0,0,0,0,0" name="width_map_unit_scale" type="QString"/>
+                </Option>
+                <data_defined_properties>
+                  <Option type="Map">
+                    <Option value="" name="name" type="QString"/>
+                    <Option name="properties"/>
+                    <Option value="collection" name="type" type="QString"/>
+                  </Option>
+                </data_defined_properties>
+              </layer>
+            </symbol>
+          </axisSymbol>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings placement="1" showAll="1" priority="0" dist="0" linePlacementFlags="18" zIndex="0" obstacle="0">
+        <properties>
+          <Option type="Map">
+            <Option value="" name="name" type="QString"/>
+            <Option name="properties"/>
+            <Option value="collection" name="type" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration type="Map">
+          <Option name="QgsGeometryGapCheck" type="Map">
+            <Option value="0" name="allowedGapsBuffer" type="double"/>
+            <Option value="false" name="allowedGapsEnabled" type="bool"/>
+            <Option value="" name="allowedGapsLayer" type="QString"/>
+          </Option>
+        </checkConfiguration>
+      </geometryOptions>
+      <legend showLabelLegend="0" type="default-vector"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field name="fid" configurationFlags="NoFlag">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NOME" configurationFlags="NoFlag">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" field="fid" name=""/>
+        <alias index="1" field="NOME" name=""/>
+      </aliases>
+      <splitPolicies>
+        <policy policy="Duplicate" field="fid"/>
+        <policy policy="Duplicate" field="NOME"/>
+      </splitPolicies>
+      <defaults>
+        <default field="fid" expression="" applyOnUpdate="0"/>
+        <default field="NOME" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint exp_strength="0" notnull_strength="1" unique_strength="1" field="fid" constraints="3"/>
+        <constraint exp_strength="0" notnull_strength="0" unique_strength="0" field="NOME" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="fid" exp=""/>
+        <constraint desc="" field="NOME" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{df5fd958-9523-40b4-ae3e-b8e7ab1e9d9e}"/>
+        <actionsetting action="from PyQt5.QtGui import *&#xd;&#xa;from PyQt5.QtWidgets import *&#xd;&#xa;import os&#xd;&#xa;import sys&#xd;&#xa;import fileinput&#xd;&#xa;from qgis.utils import iface&#xd;&#xa;&#xd;&#xa;checkDTMP=True&#xd;&#xa;checkDTMN=True&#xd;&#xa;checkDTMG=True&#xd;&#xa;checkFDMODEL=True&#xd;&#xa;checkFDUPDOWN=True&#xd;&#xa;checkFDSTEP=True&#xd;&#xa;patternType = '.tif'&#xd;&#xa;&#xd;&#xa;project = qgis.core.QgsProject.instance()&#xd;&#xa;&#xd;&#xa;#---------------------------&#xd;&#xa;MyRoot=qgis.core.QgsExpressionContextUtils.projectScope(project).variable('WATER_FLOW_DTMPATH')&#xd;&#xa;if MyRoot is None:&#xd;&#xa;    #MyRoot=QgsProject.instance().readPath(&quot;./&quot;)  #+'/'&#xd;&#xa;    iface.messageBar().pushMessage(&quot;ATTENZIONE:&quot;,&quot;Creata Variabile locale: WATER_FLOW_DTMPATH&quot;, level=Qgis.Critical)&#xd;&#xa;    MyRoot=qgis.core.QgsExpressionContextUtils.projectScope(project).variable('project_folder')&#xd;&#xa;    qgis.core.QgsExpressionContextUtils.setProjectVariable(project,'WATER_FLOW_DTMPATH',MyRoot)&#xd;&#xa;    &#xd;&#xa;elif  not (os.path.exists(MyRoot)):&#xd;&#xa;    iface.messageBar().pushMessage(&quot;ATTENZIONE:&quot;,&quot;PATH LOCALE per i FILE DTM NON ESISTE!!! Controlla Variabile: WATER_FLOW_DTMPATH&quot;, level=Qgis.Critical)&#xd;&#xa;    #MyRoot=QgsProject.instance().readPath(&quot;./&quot;) #+'/' &#xd;&#xa;    MyRoot=qgis.core.QgsExpressionContextUtils.projectScope(project).variable('project_folder')&#xd;&#xa;    qgis.core.QgsExpressionContextUtils.setProjectVariable(project,'WATER_FLOW_DTMPATH',MyRoot)&#xd;&#xa;&#xd;&#xa;#---------------------------&#xd;&#xa;DTMNAME=qgis.core.QgsExpressionContextUtils.projectScope(project).variable('WATER_FLOW_DTMNAME')&#xd;&#xa;if DTMNAME is None :&#xd;&#xa;    iface.messageBar().pushMessage(&quot;ATTENZIONE:&quot;,&quot;Creata Variabile locale: WATER_FLOW_DTMNAME&quot;, level=Qgis.Critical)&#xd;&#xa;    DTMNAME=&quot;&quot;&#xd;&#xa;    qgis.core.QgsExpressionContextUtils.setProjectVariable(project,'WATER_FLOW_DTMNAME',DTMNAME)&#xd;&#xa;    checkDTMN=False&#xd;&#xa;elif DTMNAME == ''   :&#xd;&#xa;    iface.messageBar().pushMessage(&quot;ATTENZIONE:&quot;,&quot;FILE DTM NON DEFINITO!!! Controlla Variabile: WATER_FLOW_DTMNAME&quot;, level=Qgis.Critical)&#xd;&#xa;    DTMNAME=&quot;&quot;&#xd;&#xa;    checkDTMN=False&#xd;&#xa;elif not (os.path.exists(DTMNAME)):&#xd;&#xa;    iface.messageBar().pushMessage(&quot;ATTENZIONE&quot;,&quot;NOME FILE DTM ERRATO!!! Controlla Variabile: WATER_FLOW_DTMNAME&quot;, level=Qgis.Critical)&#xd;&#xa;    iface.mainWindow().repaint()&#xd;&#xa;    checkDTMN=False    &#xd;&#xa;#---------------------------&#xd;&#xa;FDMODEL=qgis.core.QgsExpressionContextUtils.projectScope(project).variable('WATER_FLOW_FDMODEL')&#xd;&#xa;if FDMODEL is None :&#xd;&#xa;    iface.messageBar().pushMessage(&quot;ATTENZIONE:&quot;,&quot;Creata Variabile locale: WATER_FLOW_FDMODEL&quot;, level=Qgis.Critical)&#xd;&#xa;    FDMODEL=&quot;D-8&quot;&#xd;&#xa;    qgis.core.QgsExpressionContextUtils.setProjectVariable(project,'WATER_FLOW_FDMODEL',FDMODEL)&#xd;&#xa;elif FDMODEL == ''   :&#xd;&#xa;    iface.messageBar().pushMessage(&quot;ATTENZIONE:&quot;,&quot;Flow Direction Model NON DEFINITO!!! Controlla Variabile: WATER_FLOW_FDMODEL&quot;, level=Qgis.Critical)&#xd;&#xa;    FDMODEL=&quot;D-8&quot;&#xd;&#xa;    qgis.core.QgsExpressionContextUtils.setProjectVariable(project,'WATER_FLOW_FDMODEL',FDMODEL)&#xd;&#xa;#---------------------------&#xd;&#xa;FDUPDOWN=qgis.core.QgsExpressionContextUtils.projectScope(project).variable('WATER_FLOW_FDUPDOWN')&#xd;&#xa;if FDUPDOWN is None :&#xd;&#xa;    iface.messageBar().pushMessage(&quot;ATTENZIONE:&quot;,&quot;Creata Variabile locale: WATER_FLOW_FDUPDOWN&quot;, level=Qgis.Critical)&#xd;&#xa;    FDUPDOWN=&quot;DOWN&quot;&#xd;&#xa;    qgis.core.QgsExpressionContextUtils.setProjectVariable(project,'WATER_FLOW_FDUPDOWN',FDUPDOWN)&#xd;&#xa;elif FDUPDOWN == ''   :&#xd;&#xa;    iface.messageBar().pushMessage(&quot;ATTENZIONE:&quot;,&quot;Direzione di Calcolo NON DEFINITA!!! Controlla Variabile: WATER_FLOW_FDUPDOWN&quot;, level=Qgis.Critical)&#xd;&#xa;    FDUPDOWN=&quot;DOWN&quot;&#xd;&#xa;    qgis.core.QgsExpressionContextUtils.setProjectVariable(project,'WATER_FLOW_FDUPDOWN',FDUPDOWN)&#xd;&#xa;#---------------------------&#xd;&#xa;FDSTEP=qgis.core.QgsExpressionContextUtils.projectScope(project).variable('WATER_FLOW_FDSTEP')&#xd;&#xa;if FDSTEP is None :&#xd;&#xa;    iface.messageBar().pushMessage(&quot;ATTENZIONE:&quot;,&quot;Creata Variabile locale: WATER_FLOW_FDSTEP&quot;, level=Qgis.Critical)&#xd;&#xa;    FDSTEP=&quot;5000&quot;&#xd;&#xa;    qgis.core.QgsExpressionContextUtils.setProjectVariable(project,'WATER_FLOW_FDSTEP',FDSTEP)&#xd;&#xa;elif FDSTEP == ''   :&#xd;&#xa;    iface.messageBar().pushMessage(&quot;ATTENZIONE:&quot;,&quot;Max Step Calcolo NON DEFINITO!!! Controlla Variabile: WATER_FLOW_FDSTEP&quot;, level=Qgis.Critical)&#xd;&#xa;    FDSTEP=&quot;5000&quot;&#xd;&#xa;    qgis.core.QgsExpressionContextUtils.setProjectVariable(project,'WATER_FLOW_FDSTEP',FDSTEP)&#xd;&#xa;&#xd;&#xa;#---------------------------&#xd;&#xa;RESULT_Group=qgis.core.QgsExpressionContextUtils.projectScope(project).variable('WATER_FLOW_RESULT_Group')&#xd;&#xa;if RESULT_Group is None or RESULT_Group=='':&#xd;&#xa;    #MyRoot=QgsProject.instance().readPath(&quot;./&quot;)  #+'/'&#xd;&#xa;    RESULT_Group='WATER_FLOW'&#xd;&#xa;    root = qgis.core.QgsProject.instance().layerTreeRoot()&#xd;&#xa;    group = root.findGroup(RESULT_Group)&#xd;&#xa;    if group != NULL:&#xd;&#xa;        iface.messageBar().pushMessage(&quot;ATTENZIONE:&quot;,&quot;Creata Variabile locale: WATER_FLOW_RESULT_Group&quot;, level=Qgis.Critical)&#xd;&#xa;        qgis.core.QgsExpressionContextUtils.setProjectVariable(project,'WATER_FLOW_RESULT_Group',RESULT_Group)&#xd;&#xa;    else:&#xd;&#xa;        iface.messageBar().pushMessage(&quot;ATTENZIONE:&quot;,&quot;GRUPPO Layer RESULT_Group NON ESISTE&quot;, level=Qgis.Critical)&#xd;&#xa;        checkDTMG=False&#xd;&#xa;else:&#xd;&#xa;    root = qgis.core.QgsProject.instance().layerTreeRoot()&#xd;&#xa;    group = root.findGroup(RESULT_Group)&#xd;&#xa;    if group is None:&#xd;&#xa;        iface.messageBar().pushMessage(&quot;ATTENZIONE:&quot;,&quot;GRUPPO Layer RESULT_Group NON ESISTE&quot;, level=Qgis.Critical)&#xd;&#xa;        checkDTMG=False&#xd;&#xa;    &#xd;&#xa;#---------------------------&#xd;&#xa;class MyDialog(QDialog):&#xd;&#xa;    def __init__(self):&#xd;&#xa;        QDialog.__init__(self)&#xd;&#xa;        self.setWindowTitle(&quot;WATER_FLOW - Model Setup...&quot;)&#xd;&#xa;        &#xd;&#xa;        self.bar = QgsMessageBar()&#xd;&#xa;        #self.bar.setSizePolicy( QSizePolicy.Minimum, QSizePolicy.Fixed )&#xd;&#xa;        &#xd;&#xa;    &#xd;&#xa;        # Create the label &#xd;&#xa;        self.lblDTMP=QLabel('Cartella Archivio DTM ... ') &#xd;&#xa;        self.lblDTMP.setFont(QFont('Arial',10) )&#xd;&#xa;        self.leDTMP = QLineEdit()&#xd;&#xa;        self.leDTMP.setFont(QFont('Arial',10) )&#xd;&#xa;        self.leDTMP.setToolTip(&quot;Puoi scaricare i DTM da https://tinitaly.pi.ingv.it/Download_Area1_1.html&quot;)&#xd;&#xa;        self.leDTMP.setText(MyRoot)&#xd;&#xa;        self.leDTMP.editingFinished.connect(self.EditDTMP)&#xd;&#xa; &#xd;&#xa;        # Create PushButton &#xd;&#xa;        self.PB_DTMP = QPushButton (&quot;...&quot;)&#xd;&#xa;        self.PB_DTMP.setFont(QFont('Arial',10,weight=QFont.Bold) )&#xd;&#xa;        self.PB_DTMP.setStyleSheet(&quot;color: red;&quot;)&#xd;&#xa;        self.PB_DTMP.setToolTip(&quot;Seleziona Cartella DTM...&quot;)&#xd;&#xa;        self.PB_DTMP.clicked.connect(self.StoreDTMP)&#xd;&#xa;&#xd;&#xa;        # Create the label &#xd;&#xa;        self.lblDTMN=QLabel('Seleziona File DTM ... ') &#xd;&#xa;        self.lblDTMN.setFont(QFont('Arial',10) )&#xd;&#xa;        self.cbDTMN = QComboBox()&#xd;&#xa;        indice=-1&#xd;&#xa;        checkDTMN=False&#xd;&#xa;        if MyRoot != &quot;&quot;:&#xd;&#xa;            for file_path in os.listdir(MyRoot):&#xd;&#xa;                # check if current file_path is a file&#xd;&#xa;                if os.path.isfile(os.path.join(MyRoot, file_path)):&#xd;&#xa;                    # add filename&#xd;&#xa;                    if (file_path[-4:] == patternType) :&#xd;&#xa;                        self.cbDTMN.addItem(os.path.join(MyRoot, file_path))&#xd;&#xa;                        indice += 1&#xd;&#xa;                        if os.path.join(MyRoot, file_path)==DTMNAME:&#xd;&#xa;                            self.cbDTMN.setCurrentIndex(indice)&#xd;&#xa;                            checkDTMN=True&#xd;&#xa;                            self.cbDTMN.setStyleSheet(&quot;color: black;&quot;)&#xd;&#xa;                            self.cbDTMN.setToolTip(&quot;&quot;)&#xd;&#xa;            if indice == -1:&#xd;&#xa;                self.cbDTMN.addItem('Nessun file DTM presente nella Cartella Selezionata!')&#xd;&#xa;                checkDTMN=False&#xd;&#xa;                self.cbDTMN.setStyleSheet(&quot;color: red;&quot;)&#xd;&#xa;                self.cbDTMN.setToolTip(&quot;&quot;)&#xd;&#xa;                self.cbDTMN.setEnabled(False)&#xd;&#xa;            elif checkDTMN==False:&#xd;&#xa;                self.cbDTMN.setStyleSheet(&quot;color: red;&quot;)&#xd;&#xa;                self.cbDTMN.setToolTip(&quot;Seleziona file DTM !!! &quot;)&#xd;&#xa;            &#xd;&#xa;        self.cbDTMN.setFont(QFont('Arial',10) )&#xd;&#xa;        self.cbDTMN.setToolTip(&quot; Si Consiglia di Selezionare un DTM sul quale\n è già stato eseguito un Fill Sinks...\n ( vedi SAGA o TauDEM Tarboton)&quot;)&#xd;&#xa;        self.cbDTMN.currentIndexChanged.connect(self.StoreDTMN)&#xd;&#xa;        &#xd;&#xa;        # Create PushButton&#xd;&#xa;        self.PB_DTMN = QPushButton (&quot;+&quot;)&#xd;&#xa;        self.PB_DTMN.setFont(QFont('Arial',10,weight=QFont.Bold))&#xd;&#xa;        self.PB_DTMN.setStyleSheet(&quot;color: red;&quot;)&#xd;&#xa;        self.PB_DTMN.setToolTip(&quot;Aggiungi DTM al Progetto...&quot;)&#xd;&#xa;        self.PB_DTMN.clicked.connect(self.AddDTMN)&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;        # Create the label &#xd;&#xa;        self.lblFDMODEL=QLabel('Flow Direction Model ... ') &#xd;&#xa;        self.lblFDMODEL.setFont(QFont('Arial',10) )&#xd;&#xa;        self.cbFDMODEL = QComboBox()&#xd;&#xa;        self.cbFDMODEL.setFont(QFont('Arial',10) )&#xd;&#xa;        self.cbFDMODEL.setToolTip(&quot;neighbors[]:\n|----|----|----|\n|  6  |  7  |  8  |\n|----|----|----|\n|  4  |  °  |  5  |\n|----|----|----|\n|  1  |  2  |  3  |\n|----|----|----|\n&quot;)&#xd;&#xa;        indice=-1&#xd;&#xa;        checkFDMODEL=False&#xd;&#xa;        self.cbFDMODEL.addItem('D-8')&#xd;&#xa;        #self.cbFDMODEL.addItem('D-INF')&#xd;&#xa;        self.cbFDMODEL.setCurrentText(FDMODEL)&#xd;&#xa;        self.cbFDMODEL.currentIndexChanged.connect(self.StoreFDMODEL)&#xd;&#xa;&#xd;&#xa;        # Create the label &#xd;&#xa;        self.lblFDUPDOWN=QLabel('Direzione ... ') &#xd;&#xa;        self.lblFDUPDOWN.setFont(QFont('Arial',10) )&#xd;&#xa;        self.cbFDUPDOWN = QComboBox()&#xd;&#xa;        self.cbFDUPDOWN.setFont(QFont('Arial',10) )&#xd;&#xa;        self.cbFDUPDOWN.setToolTip(&quot; UP        = massima pendenza verso monte (DISPLUVIO)\n DOWN = massima pendenza verso valle (IMPLUVIO)&quot;)&#xd;&#xa;        indice=-1&#xd;&#xa;        checkFDUPDOWN=False&#xd;&#xa;        self.cbFDUPDOWN.addItem('UP')&#xd;&#xa;        self.cbFDUPDOWN.addItem('DOWN')&#xd;&#xa;        self.cbFDUPDOWN.setCurrentText(FDUPDOWN)&#xd;&#xa;        self.cbFDUPDOWN.currentIndexChanged.connect(self.StoreFDUPDOWN)&#xd;&#xa;&#xd;&#xa;        # Create the label &#xd;&#xa;        self.lblFDSTEP=QLabel('Max Step ... ') &#xd;&#xa;        self.lblFDSTEP.setFont(QFont('Arial',10) )&#xd;&#xa;        self.leFDSTEP = QLineEdit()&#xd;&#xa;        self.leFDSTEP.setFont(QFont('Arial',10) )&#xd;&#xa;        #FDSTEP=qgis.core.QgsExpressionContextUtils.projectScope(project).variable('WATER_FLOW_FDSTEP')&#xd;&#xa;        self.leFDSTEP.setToolTip(&quot; Numero Massimo di Celle che saranno esaminate &quot;)&#xd;&#xa;        self.leFDSTEP.setText(FDSTEP)&#xd;&#xa;        self.leFDSTEP.editingFinished.connect(self.EditFDSTEP)&#xd;&#xa;&#xd;&#xa;        # Create the label &#xd;&#xa;        self.lblDTMG=QLabel('Caricamento nel Gruppo Layer ... ') &#xd;&#xa;        self.lblDTMG.setFont(QFont('Arial',10) )&#xd;&#xa;        self.leDTMG = QLineEdit()&#xd;&#xa;        self.leDTMG.setFont(QFont('Arial',10) )&#xd;&#xa;        #RESULT_Group=qgis.core.QgsExpressionContextUtils.projectScope(project).variable('WATER_FLOW_RESULT_Group')&#xd;&#xa;        self.leDTMG.setText(RESULT_Group)&#xd;&#xa;        self.leDTMG.editingFinished.connect(self.EditDTMG)&#xd;&#xa;        if checkDTMG==False:&#xd;&#xa;            self.leDTMG.setStyleSheet(&quot;color: red;&quot;)&#xd;&#xa;            self.leDTMG.setToolTip(&quot;Attenzione NON ESITE IL GRUPPO:  &quot;+RESULT_Group)&#xd;&#xa;        else:&#xd;&#xa;            self.leDTMG.setStyleSheet(&quot;color: black;&quot;)&#xd;&#xa;            self.leDTMG.setToolTip(&quot;&quot;)&#xd;&#xa;&#xd;&#xa;        # Create Add PushButton&#xd;&#xa;        #self.pulsante = QPushButton (&quot;OK&quot;)&#xd;&#xa;        #self.pulsante.clicked.connect(self.run)&#xd;&#xa;        #self.pulsante.setFont(QFont('Arial',10) )&#xd;&#xa;        #&#xd;&#xa;        #if checkDTMN==False or checkDTMG==False:&#xd;&#xa;        #    self.pulsante.setEnabled(False)&#xd;&#xa;&#xd;&#xa;        #Layout&#xd;&#xa;        self.setLayout(QGridLayout())&#xd;&#xa;        #self.setLayout().setSpacing(10)&#xd;&#xa;        #self.layout().setContentsMargins(0, 0, 0, 0)&#xd;&#xa;        self.resize(700,100)&#xd;&#xa;        #self.layout().title('Load RVE CTRN...'&#xd;&#xa;&#xd;&#xa;        self.layout().addWidget(self.lblDTMP, 0, 0)&#xd;&#xa;        self.layout().addWidget(self.leDTMP, 0, 1)&#xd;&#xa;        self.layout().addWidget(self.PB_DTMP, 0, 2)&#xd;&#xa;        &#xd;&#xa;        self.layout().addWidget(self.lblDTMN, 1, 0)&#xd;&#xa;        self.layout().addWidget(self.cbDTMN, 1, 1)&#xd;&#xa;        self.layout().addWidget(self.PB_DTMN, 1, 2)&#xd;&#xa;        &#xd;&#xa;        self.layout().addWidget(self.lblFDMODEL, 2, 0)&#xd;&#xa;        self.layout().addWidget(self.cbFDMODEL, 2, 1)&#xd;&#xa;        &#xd;&#xa;        self.layout().addWidget(self.lblFDUPDOWN, 3, 0)&#xd;&#xa;        self.layout().addWidget(self.cbFDUPDOWN, 3, 1)&#xd;&#xa;        &#xd;&#xa;        self.layout().addWidget(self.lblFDSTEP, 4, 0)&#xd;&#xa;        self.layout().addWidget(self.leFDSTEP, 4, 1)&#xd;&#xa;        &#xd;&#xa;        self.layout().addWidget(self.lblDTMG, 5, 0)&#xd;&#xa;        self.layout().addWidget(self.leDTMG, 5, 1)&#xd;&#xa; &#xd;&#xa;        self.layout().addWidget(self.bar, 6, 1)&#xd;&#xa;        #self.layout().addWidget(self.pulsante, 7, 1)&#xd;&#xa;        &#xd;&#xa;    def EditDTMP(self):&#xd;&#xa;        if self.leDTMP.isModified():&#xd;&#xa;            #self.bar.pushMessage(&quot;EditDTMP&quot;, self.leDTMP.text(), level=Qgis.Info)&#xd;&#xa;            if  not (os.path.exists(self.leDTMP.text())):&#xd;&#xa;                #self.bar.pushMessage(&quot;&quot;,&quot;PATH LOCALE NON ESISTE - RIPRISTINO SU PATH PROGETTO&quot;, level=Qgis.Critical)&#xd;&#xa;                iface.messageBar().pushMessage(&quot;EditDTMP :&quot;,&quot;PATH LOCALE NON ESISTE - RIPRISTINO SU PATH PROGETTO&quot;, level=Qgis.Critical)&#xd;&#xa;&#xd;&#xa;                MyRoot=QgsProject.instance().readPath(qgis.core.QgsExpressionContextUtils.projectScope(project).variable('project_folder'))&#xd;&#xa;                qgis.core.QgsExpressionContextUtils.setProjectVariable(project,'WATER_FLOW_DTMPATH',MyRoot)&#xd;&#xa;                #self.bar.pushMessage(&quot;EditDTMP&quot;, MyRoot, level=Qgis.Info)&#xd;&#xa;                self.leDTMP.setText(MyRoot)&#xd;&#xa;                self.leDTMP.setStyleSheet(&quot;color: black;&quot;)&#xd;&#xa;                self.leDTMP.setToolTip(&quot;&quot;)&#xd;&#xa;                &#xd;&#xa;                #Aggiorna CB&#xd;&#xa;                self.cbDTMN.setEnabled(True)&#xd;&#xa;                self.cbDTMN.clear()&#xd;&#xa;                self.cbDTMN.setStyleSheet(&quot;color: black;&quot;)&#xd;&#xa;                self.cbDTMN.setToolTip(&quot;&quot;)&#xd;&#xa;                indice=-1&#xd;&#xa;                checkDTMN=False&#xd;&#xa;                for file_path in os.listdir(MyRoot):&#xd;&#xa;                    # check if current file_path is a file&#xd;&#xa;                    if os.path.isfile(os.path.join(MyRoot, file_path)):&#xd;&#xa;                        # add filename&#xd;&#xa;                        if (file_path[-4:] == patternType) :&#xd;&#xa;                            self.cbDTMN.addItem(os.path.join(MyRoot, file_path))&#xd;&#xa;                            indice += 1&#xd;&#xa;                            if os.path.join(MyRoot, file_path)==DTMNAME:&#xd;&#xa;                                self.cbDTMN.setCurrentIndex(indice)&#xd;&#xa;                                checkDTMN=True&#xd;&#xa;                                self.cbDTMN.setStyleSheet(&quot;color: black;&quot;)&#xd;&#xa;                                self.cbDTMN.setToolTip(&quot;&quot;)&#xd;&#xa;                if indice==-1:&#xd;&#xa;                    self.cbDTMN.addItem('Nessun file DTM presente nella Cartella Selezionata!')&#xd;&#xa;                    checkDTMN=False&#xd;&#xa;                    self.cbDTMN.setStyleSheet(&quot;color: red;&quot;)&#xd;&#xa;                    self.cbDTMN.setToolTip(&quot;Scegli altra Cartella&quot;)&#xd;&#xa;                    self.cbDTMN.setEnabled(False)&#xd;&#xa;                elif checkDTMN==False:&#xd;&#xa;                    self.cbDTMN.setStyleSheet(&quot;color: red;&quot;)&#xd;&#xa;                    self.cbDTMN.setToolTip(&quot;Seleziona file DTM !!! &quot;)&#xd;&#xa;            else:&#xd;&#xa;                MyRoot=(self.leDTMP.text())&#xd;&#xa;                if MyRoot==QgsProject.instance().readPath(&quot;./&quot;):&#xd;&#xa;                    qgis.core.QgsExpressionContextUtils.setProjectVariable(project,'WATER_FLOW_DTMPATH','')&#xd;&#xa;                    checkDTMP=False&#xd;&#xa;                else:&#xd;&#xa;                    qgis.core.QgsExpressionContextUtils.setProjectVariable(project,'WATER_FLOW_DTMPATH',MyRoot)&#xd;&#xa;                    #Aggiorna CB&#xd;&#xa;                    self.cbDTMN.setEnabled(True)&#xd;&#xa;                    self.cbDTMN.clear()&#xd;&#xa;                    indice=-1&#xd;&#xa;                    checkDTMN=False&#xd;&#xa;                    for file_path in os.listdir(MyRoot):&#xd;&#xa;                        # check if current file_path is a file&#xd;&#xa;                        if os.path.isfile(os.path.join(MyRoot, file_path)):&#xd;&#xa;                            # add filename&#xd;&#xa;                            if (file_path[-4:] == patternType) :&#xd;&#xa;                                self.cbDTMN.addItem(os.path.join(MyRoot, file_path))&#xd;&#xa;                                indice += 1&#xd;&#xa;                                if os.path.join(MyRoot, file_path)==DTMNAME:&#xd;&#xa;                                    self.cbDTMN.setCurrentIndex(indice)&#xd;&#xa;                                    checkDTMN=True&#xd;&#xa;                                    self.cbDTMN.setStyleSheet(&quot;color: black;&quot;)&#xd;&#xa;                                    self.cbDTMN.setToolTip(&quot;&quot;)&#xd;&#xa;                    if indice==-1:&#xd;&#xa;                        self.cbDTMN.addItem('Nessun file DTM presente nella Cartella Selezionata!')&#xd;&#xa;                        checkDTMN=False&#xd;&#xa;                        self.cbDTMN.setStyleSheet(&quot;color: red;&quot;)&#xd;&#xa;                        self.cbDTMN.setToolTip(&quot;Scegli altra Cartella&quot;)&#xd;&#xa;                        self.cbDTMN.setEnabled(False)&#xd;&#xa;                    elif checkDTMN==False:&#xd;&#xa;                        self.cbDTMN.setStyleSheet(&quot;color: red;&quot;)&#xd;&#xa;                        self.cbDTMN.setToolTip(&quot;Seleziona file DTM !!! &quot;)&#xd;&#xa;                   &#xd;&#xa;                    &#xd;&#xa;            self.bar.pushMessage(&quot;OK&quot;, &quot;Variabile Aggiornata !&quot;, level=Qgis.Info)&#xd;&#xa;            #if checkDTMN==False or checkDTMG==False:&#xd;&#xa;            #    self.pulsante.setEnabled(False)&#xd;&#xa;            #else:&#xd;&#xa;            #    self.pulsante.setEnabled(True)&#xd;&#xa;        self.leDTMP.setModified(False)&#xd;&#xa;&#xd;&#xa;    def StoreDTMP(self):&#xd;&#xa;        qfd = QFileDialog()&#xd;&#xa;        path = self.leDTMP.text()&#xd;&#xa;        title=&quot;Seleziona Cartella Archivio DTM Model...&quot;&#xd;&#xa;        MyRoot = QFileDialog.getExistingDirectory(qfd, title, path)&#xd;&#xa;        #print(os.path.dirname(os.path.realpath(filePath)))&#xd;&#xa;        #print(MyRoot)&#xd;&#xa;        if MyRoot == &quot;&quot; :&#xd;&#xa;            checkDTMP=False&#xd;&#xa;            return&#xd;&#xa;        self.leDTMP.setText(MyRoot)&#xd;&#xa;        if MyRoot==QgsProject.instance().readPath(&quot;./&quot;):&#xd;&#xa;            qgis.core.QgsExpressionContextUtils.setProjectVariable(project,'WATER_FLOW_DTMPATH','')&#xd;&#xa;            #checkDTMP=False&#xd;&#xa;        else:&#xd;&#xa;            qgis.core.QgsExpressionContextUtils.setProjectVariable(project,'WATER_FLOW_DTMPATH',MyRoot)&#xd;&#xa;        #Aggiorna CB&#xd;&#xa;        checkDTMN=False&#xd;&#xa;        self.cbDTMN.setEnabled(True)&#xd;&#xa;        self.cbDTMN.clear()&#xd;&#xa;        indice=-1&#xd;&#xa;        for file_path in os.listdir(MyRoot):&#xd;&#xa;            # check if current file_path is a file&#xd;&#xa;            if os.path.isfile(os.path.join(MyRoot, file_path)):&#xd;&#xa;                # add filename&#xd;&#xa;                if (file_path[-4:] == patternType) :&#xd;&#xa;                    self.cbDTMN.addItem(os.path.join(MyRoot, file_path))&#xd;&#xa;                    indice += 1&#xd;&#xa;                    if os.path.join(MyRoot, file_path)==DTMNAME:&#xd;&#xa;                        self.cbDTMN.setCurrentIndex(indice)&#xd;&#xa;                        checkDTMN=True&#xd;&#xa;                        self.cbDTMN.setStyleSheet(&quot;color: black;&quot;)&#xd;&#xa;                        self.cbDTMN.setToolTip(&quot;&quot;)&#xd;&#xa;        if indice==-1:&#xd;&#xa;            self.cbDTMN.addItem('Nessun file DTM presente nella Cartella Selezionata!')&#xd;&#xa;            checkDTMN=False&#xd;&#xa;            self.cbDTMN.setStyleSheet(&quot;color: red;&quot;)&#xd;&#xa;            self.cbDTMN.setToolTip(&quot;Scegli altra Cartella&quot;)&#xd;&#xa;            self.cbDTMN.setEnabled(False)&#xd;&#xa;        elif checkDTMN==False:&#xd;&#xa;            self.cbDTMN.setStyleSheet(&quot;color: red;&quot;)&#xd;&#xa;            self.cbDTMN.setToolTip(&quot;Seleziona file DTM !!! &quot;)&#xd;&#xa;&#xd;&#xa;        self.bar.pushMessage(&quot;OK&quot;, &quot;Variabile Aggiornata !&quot;, level=Qgis.Info)&#xd;&#xa;        #if checkDTMN==False or checkDTMG==False:&#xd;&#xa;        #    self.pulsante.setEnabled(False)&#xd;&#xa;        #else:&#xd;&#xa;        #    self.pulsante.setEnabled(True)&#xd;&#xa;          &#xd;&#xa;    def StoreDTMN(self):&#xd;&#xa;        if self.cbDTMN.currentText()!='Nessun file DTM presente nella Cartella Selezionata!':&#xd;&#xa;            DTMNAME=self.cbDTMN.currentText()&#xd;&#xa;            qgis.core.QgsExpressionContextUtils.setProjectVariable(project,'WATER_FLOW_DTMNAME',self.cbDTMN.currentText())&#xd;&#xa;            self.bar.pushMessage(&quot;OK&quot;, &quot;Variabile Aggiornata !&quot;, level=Qgis.Info)&#xd;&#xa;            checkDTMN = True&#xd;&#xa;            self.cbDTMN.setStyleSheet(&quot;color: black;&quot;)&#xd;&#xa;            self.cbDTMN.setToolTip(&quot;&quot;)&#xd;&#xa;            #if checkDTMN==False or checkDTMG==False:&#xd;&#xa;            #    self.pulsante.setEnabled(False)&#xd;&#xa;            #else:&#xd;&#xa;            #    self.pulsante.setEnabled(True)&#xd;&#xa;&#xd;&#xa;    def AddDTMN(self):&#xd;&#xa;        DTMNAME=qgis.core.QgsExpressionContextUtils.projectScope(project).variable('WATER_FLOW_DTMNAME')&#xd;&#xa;        iface.addRasterLayer(DTMNAME,os.path.basename(DTMNAME))&#xd;&#xa;    &#xd;&#xa;    def StoreFDMODEL(self):&#xd;&#xa;        FDMODEL=self.cbFDMODEL.currentText()&#xd;&#xa;        qgis.core.QgsExpressionContextUtils.setProjectVariable(project,'WATER_FLOW_FDMODEL',FDMODEL)&#xd;&#xa;&#xd;&#xa;    def StoreFDUPDOWN(self):&#xd;&#xa;        FDUPDOWN=self.cbFDUPDOWN.currentText()&#xd;&#xa;        qgis.core.QgsExpressionContextUtils.setProjectVariable(project,'WATER_FLOW_FDUPDOWN',FDUPDOWN)&#xd;&#xa;&#xd;&#xa;    def EditFDSTEP(self):&#xd;&#xa;        if self.leFDSTEP.isModified():&#xd;&#xa;            FDSTEP=self.leFDSTEP.text()&#xd;&#xa;            qgis.core.QgsExpressionContextUtils.setProjectVariable(project,'WATER_FLOW_FDSTEP',FDSTEP)&#xd;&#xa;&#xd;&#xa;    def EditDTMG(self):&#xd;&#xa;        if self.leDTMG.isModified():&#xd;&#xa;            RESULT_Group=(self.leDTMG.text())&#xd;&#xa;            root = qgis.core.QgsProject.instance().layerTreeRoot()&#xd;&#xa;            group = root.findGroup(RESULT_Group)&#xd;&#xa;            if group != NULL:&#xd;&#xa;                qgis.core.QgsExpressionContextUtils.setProjectVariable(project,'WATER_FLOW_RESULT_Group',RESULT_Group)&#xd;&#xa;                checkDTMG=True&#xd;&#xa;                self.leDTMG.setStyleSheet(&quot;color: black;&quot;)&#xd;&#xa;                self.leDTMG.setToolTip(&quot;&quot;)&#xd;&#xa;            else:&#xd;&#xa;                self.bar.pushMessage(&quot;EditDTMG&quot;,&quot;NOME GRUPPO LAYER ERRATO!&quot;, level=Qgis.Critical)&#xd;&#xa;                checkDTMG=False&#xd;&#xa;                self.leDTMG.setStyleSheet(&quot;color: red;&quot;)&#xd;&#xa;                self.leDTMG.setToolTip(&quot;Attenzione NON ESITE IL GRUPPO:  &quot; + RESULT_Group)&#xd;&#xa;            #if checkDTMN==False or checkDTMG==False:&#xd;&#xa;            #    self.pulsante.setEnabled(False)&#xd;&#xa;            #else:&#xd;&#xa;            #    self.pulsante.setEnabled(True)&#xd;&#xa;                &#xd;&#xa;    #def run(self):&#xd;&#xa;    #    #&#xd;&#xa;    #    msg=&quot;Lettura in corso.... attendi !!!&quot;&#xd;&#xa;    #    iface.messageBar().pushMessage(&quot;WATER_FLOW - &quot;,msg, level=Qgis.Success)&#xd;&#xa;    #    iface.mainWindow().repaint()&#xd;&#xa;    #    &#xd;&#xa;    #&#xd;&#xa;    #    # add Layer definition&#xd;&#xa;    #    #root = QgsProject.instance().layerTreeRoot()&#xd;&#xa;    #    #group = root.findGroup(RESULT_Group)&#xd;&#xa;    #    #QgsLayerDefinition().loadLayerDefinition(fileOut,QgsProject.instance(), group)&#xd;&#xa;    #&#xd;&#xa;    #    iface.messageBar().clearWidgets()&#xd;&#xa;    #    msg=&quot;Lettura Completata !!!&quot;&#xd;&#xa;    #    iface.messageBar().pushMessage(&quot;WATER_FLOW - &quot;,msg, level=Qgis.Success,duration = 1)&#xd;&#xa;    #    iface.mainWindow().repaint()&#xd;&#xa;    #    self.bar.pushMessage(&quot;OK&quot;, &quot;Lettura Completata !!!&quot;, level=Qgis.Info)&#xd;&#xa;&#xd;&#xa;myDlg=MyDialog()&#xd;&#xa;myDlg.show()&#xd;&#xa;" capture="0" shortTitle="" icon="" notificationMessage="" isEnabledOnlyWhenEditable="0" name="WATER_FLOW_Form_Setup" id="{df5fd958-9523-40b4-ae3e-b8e7ab1e9d9e}" type="1">
+          <actionScope id="Feature"/>
+          <actionScope id="Canvas"/>
+        </actionsetting>
+        <actionsetting action="from osgeo import gdal, osr, ogr&#xd;&#xa;from qgis.core import (&#xd;&#xa;    QgsRasterLayer,&#xd;&#xa;    QgsPointXY,&#xd;&#xa;    QgsFeature,&#xd;&#xa;    QgsGeometry,&#xd;&#xa;    QgsVectorLayer,&#xd;&#xa;    QgsField,&#xd;&#xa;    QgsProject,&#xd;&#xa;    QgsCoordinateReferenceSystem,&#xd;&#xa;)&#xd;&#xa;from qgis.gui import QgsMapToolEmitPoint&#xd;&#xa;#from qgis._3d import QgsVectorLayer3DRenderer&#xd;&#xa;from PyQt5.QtCore import QVariant&#xd;&#xa;from qgis.utils import iface&#xd;&#xa;from math import hypot&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;def read_geotiff(file_path):&#xd;&#xa;    try:&#xd;&#xa;        raster_layer = QgsRasterLayer(file_path, 'Elevation', 'gdal')&#xd;&#xa;        if not raster_layer.isValid():&#xd;&#xa;            raise Exception(f&quot;Errore nel caricamento del GeoTIFF: {file_path}&quot;)&#xd;&#xa;        return raster_layer&#xd;&#xa;    except Exception as e:&#xd;&#xa;        # Visualizza l'errore in modo più accessibile agli utenti&#xd;&#xa;        iface.messageBar().pushMessage(&quot;Errore&quot;, str(e), level=Qgis.Critical)&#xd;&#xa;        return None&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;def get_epsg_from_geotiff(file_path):&#xd;&#xa;    dataset = gdal.Open(file_path)&#xd;&#xa;    if dataset:&#xd;&#xa;        projection = dataset.GetProjection()&#xd;&#xa;        srs = osr.SpatialReference(wkt=projection)&#xd;&#xa;        return srs.GetAuthorityCode(None)&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;def calculate_slope(point1, point2, elevation_layer, direzione):&#xd;&#xa;    result1 = elevation_layer.dataProvider().identify(QgsPointXY(point1), QgsRaster.IdentifyFormatValue)&#xd;&#xa;    elevation1 = result1.results()[1] if result1.isValid() else None&#xd;&#xa;    &#xd;&#xa;    result2 = elevation_layer.dataProvider().identify(QgsPointXY(point2), QgsRaster.IdentifyFormatValue)&#xd;&#xa;    elevation2 = result2.results()[1] if result2.isValid() else None&#xd;&#xa;    &#xd;&#xa;    if elevation1 is not None and elevation2 is not None:&#xd;&#xa;        distance = QgsPointXY(point2.x() - point1.x(), point2.y() - point1.y())&#xd;&#xa;        if direzione == 'DOWN':&#xd;&#xa;            # PERCORSO IN DISCESA&#xd;&#xa;            slope = (elevation1 - elevation2) / hypot(distance.x(), distance.y())&#xd;&#xa;        else:&#xd;&#xa;            # PERCORSO IN SALITA&#xd;&#xa;            slope = (elevation2 - elevation1) / hypot(distance.x(), distance.y())&#xd;&#xa;            &#xd;&#xa;        return slope&#xd;&#xa;    else:&#xd;&#xa;        return None&#xd;&#xa;&#xd;&#xa;def simulate_water_flow_d8(elevation_layer, start_point, num_steps, direzione):&#xd;&#xa;    flow_path = [start_point]&#xd;&#xa;&#xd;&#xa;    # Ottieni la risoluzione del raster&#xd;&#xa;    x_resolution = elevation_layer.rasterUnitsPerPixelX()&#xd;&#xa;    y_resolution = elevation_layer.rasterUnitsPerPixelY()&#xd;&#xa;    addpoint = 0&#xd;&#xa;    &#xd;&#xa;    for step in range(num_steps):&#xd;&#xa;        # Trova il vicino con la massima pendenza&#xd;&#xa;        max_slope_neighbor = None&#xd;&#xa;        max_slope = float('-inf')&#xd;&#xa;&#xd;&#xa;        neighbors = [&#xd;&#xa;            (flow_path[-1].x() - x_resolution, flow_path[-1].y() - y_resolution),&#xd;&#xa;            (flow_path[-1].x(), flow_path[-1].y() - y_resolution),&#xd;&#xa;            (flow_path[-1].x() + x_resolution, flow_path[-1].y() - y_resolution),&#xd;&#xa;            (flow_path[-1].x() - x_resolution, flow_path[-1].y()),&#xd;&#xa;            (flow_path[-1].x() + x_resolution, flow_path[-1].y()),&#xd;&#xa;            (flow_path[-1].x() - x_resolution, flow_path[-1].y() + y_resolution),&#xd;&#xa;            (flow_path[-1].x(), flow_path[-1].y() + y_resolution),&#xd;&#xa;            (flow_path[-1].x() + x_resolution, flow_path[-1].y() + y_resolution),&#xd;&#xa;        ]&#xd;&#xa;&#xd;&#xa;        for neighbor_x, neighbor_y in neighbors:&#xd;&#xa;            # Verifica se il vicino si trova all'interno delle coordinate di estensione del raster&#xd;&#xa;            if (&#xd;&#xa;                elevation_layer.extent().xMinimum() &lt;= neighbor_x &lt;= elevation_layer.extent().xMaximum() and&#xd;&#xa;                elevation_layer.extent().yMinimum() &lt;= neighbor_y &lt;= elevation_layer.extent().yMaximum()&#xd;&#xa;            ):&#xd;&#xa;                neighbor_point = QgsPointXY(neighbor_x, neighbor_y)&#xd;&#xa;                &#xd;&#xa;                # Controlla se il vicino è uguale al secondo punto precedente nel percorso&#xd;&#xa;                if len(flow_path) > x_resolution and neighbor_point == flow_path[-1]:&#xd;&#xa;                    continue  # Ignora questo vicino per evitare il loop&#xd;&#xa;&#xd;&#xa;                slope = calculate_slope(flow_path[-1], neighbor_point, elevation_layer, direzione)&#xd;&#xa;                &#xd;&#xa;                if slope >= max_slope:&#xd;&#xa;                    max_slope = slope&#xd;&#xa;                    max_slope_neighbor = neighbor_point&#xd;&#xa;&#xd;&#xa;        if max_slope_neighbor:&#xd;&#xa;            addpoint = addpoint + 1&#xd;&#xa;            #print(addpoint,max_slope_neighbor,slope)&#xd;&#xa;            flow_path.append(max_slope_neighbor)&#xd;&#xa;&#xd;&#xa;    if addpoint>0:&#xd;&#xa;        return flow_path&#xd;&#xa;    else:&#xd;&#xa;        return None&#xd;&#xa;    &#xd;&#xa;&#xd;&#xa;&#xd;&#xa;    &#xd;&#xa;#-------------------------------------------------&#xd;&#xa;def create_vector_layer(points, layer_name, raster_epsg, elevation_layer, result_group_name):&#xd;&#xa;    vl = QgsVectorLayer(&quot;LineStringZ&quot;, layer_name, &quot;memory&quot;)&#xd;&#xa;    vl.setCrs(QgsCoordinateReferenceSystem(raster_epsg))&#xd;&#xa;    pr = vl.dataProvider()&#xd;&#xa;    pr.addAttributes([&#xd;&#xa;        QgsField(&quot;ID&quot;, QVariant.Int),&#xd;&#xa;        QgsField(&quot;Progressiva&quot;, QVariant.Double)  # Aggiunto campo per la progressiva&#xd;&#xa;    ])&#xd;&#xa;    vl.updateFields()&#xd;&#xa;    features = []&#xd;&#xa;&#xd;&#xa;    # Variabile per tenere traccia della progressiva&#xd;&#xa;    progressiva = 0.0&#xd;&#xa;&#xd;&#xa;    for i, point in enumerate(points[:-1]):&#xd;&#xa;        result1 = elevation_layer.dataProvider().identify(QgsPointXY(point), QgsRaster.IdentifyFormatValue)&#xd;&#xa;        elevation1 = result1.results()[1] if result1.isValid() else None&#xd;&#xa;&#xd;&#xa;        result2 = elevation_layer.dataProvider().identify(QgsPointXY(points[i + 1]), QgsRaster.IdentifyFormatValue)&#xd;&#xa;        elevation2 = result2.results()[1] if result2.isValid() else None&#xd;&#xa;&#xd;&#xa;        if elevation1 is not None and elevation2 is not None:&#xd;&#xa;            # Calcola la lunghezza del segmento come distanza euclidea tra i due punti&#xd;&#xa;            distance = hypot(points[i + 1].x() - point.x(), points[i + 1].y() - point.y())&#xd;&#xa;&#xd;&#xa;            # Calcola la progressiva cumulativa&#xd;&#xa;            progressiva += distance&#xd;&#xa;&#xd;&#xa;            feature = QgsFeature()&#xd;&#xa;            feature.setGeometry(QgsGeometry.fromPolyline([QgsPoint(point.x(), point.y(), elevation1), QgsPoint(points[i + 1].x(), points[i + 1].y(), elevation2)]))&#xd;&#xa;            feature.setAttributes([i, progressiva])&#xd;&#xa;            features.append(feature)&#xd;&#xa;&#xd;&#xa;    pr.addFeatures(features)&#xd;&#xa;    vl.updateExtents()&#xd;&#xa;&#xd;&#xa;    # Trova il gruppo nel Layer Tree&#xd;&#xa;    root = QgsProject.instance().layerTreeRoot()&#xd;&#xa;    group = root.findGroup(result_group_name)&#xd;&#xa;&#xd;&#xa;    if group is not None:&#xd;&#xa;        # Aggiungi il layer vettoriale al gruppo&#xd;&#xa;        QgsProject.instance().addMapLayer(vl, False)&#xd;&#xa;        layer_tree_layer = QgsLayerTreeLayer(vl)&#xd;&#xa;        group.insertChildNode(0, layer_tree_layer)&#xd;&#xa;&#xd;&#xa;    return vl&#xd;&#xa;&#xd;&#xa;#-------------------------------------------------&#xd;&#xa;# Funzione chiamata al clic del mouse&#xd;&#xa;def start_simulation(click_point):&#xd;&#xa;    # Imposta il percorso del file GeoTIFF&#xd;&#xa;    file_path = DTMNAME&#xd;&#xa;&#xd;&#xa;    # Carica il raster&#xd;&#xa;    elevation_layer = read_geotiff(file_path)&#xd;&#xa;&#xd;&#xa;    if elevation_layer:&#xd;&#xa;        # Ottieni le estensioni (bounding box) del raster&#xd;&#xa;        xmin, ymin, xmax, ymax = elevation_layer.extent().toRectF().getCoords()&#xd;&#xa;&#xd;&#xa;        # Ottieni la risoluzione del raster&#xd;&#xa;        x_resolution = elevation_layer.rasterUnitsPerPixelX()&#xd;&#xa;        y_resolution = elevation_layer.rasterUnitsPerPixelY()&#xd;&#xa;&#xd;&#xa;        # Calcola le coordinate del centro della cella del raster&#xd;&#xa;        center_x = xmin + int((click_point.x() - xmin) / x_resolution) * x_resolution + x_resolution / 2&#xd;&#xa;        center_y = ymin + int((click_point.y() - ymin) / y_resolution) * y_resolution + y_resolution / 2&#xd;&#xa;        center_point = QgsPointXY(center_x, center_y)&#xd;&#xa;&#xd;&#xa;        # Imposta il punto di inizio come il centro della cella del raster&#xd;&#xa;        start_point = center_point&#xd;&#xa;&#xd;&#xa;        # Numero di passi della simulazione&#xd;&#xa;        num_steps = int(FDSTEP)&#xd;&#xa;&#xd;&#xa;        # Direzione della simulazione (DOWN o UP)&#xd;&#xa;        direzione = FDUPDOWN&#xd;&#xa;&#xd;&#xa;        # Ottieni l'EPSG dal GeoTIFF&#xd;&#xa;        raster_epsg = get_epsg_from_geotiff(file_path)&#xd;&#xa;&#xd;&#xa;        if FDMODEL == 'D-8':&#xd;&#xa;            # Simula il percorso dell'acqua&#xd;&#xa;            flow_path = simulate_water_flow_d8(elevation_layer, start_point, num_steps, direzione)&#xd;&#xa;&#xd;&#xa;        # Crea un layer vettoriale 3D per il percorso dell'acqua&#xd;&#xa;        outputname = 'Water_Flow_' + FDMODEL + &quot;_&quot; + direzione&#xd;&#xa;        if flow_path:&#xd;&#xa;            water_flow_layer_3d = create_vector_layer(flow_path, outputname, raster_epsg, elevation_layer, RESULT_Group)&#xd;&#xa;&#xd;&#xa;            # Aggiungi il layer vettoriale al progetto&#xd;&#xa;            #QgsProject.instance().addMapLayer(water_flow_layer_3d)&#xd;&#xa;&#xd;&#xa;            iface.messageBar().clearWidgets()&#xd;&#xa;            msg = &quot; Completato !!!&quot;&#xd;&#xa;            iface.messageBar().pushMessage(&quot;WATER FLOW - &quot;, msg, level=Qgis.Success, duration=1)&#xd;&#xa;        else:&#xd;&#xa;            iface.messageBar().clearWidgets()&#xd;&#xa;            msg = &quot; ERRORE START POINT NON Valido !!!&quot;&#xd;&#xa;            iface.messageBar().pushMessage(&quot;WATER FLOW - &quot;, msg, level=Qgis.Critical, duration=3)&#xd;&#xa;        iface.mainWindow().repaint()&#xd;&#xa;    else:&#xd;&#xa;        iface.messageBar().pushMessage(&quot;Errore&quot;, &quot;Impossibile caricare il raster.&quot;, level=Qgis.Critical)&#xd;&#xa;&#xd;&#xa;#-------------------------------------------------&#xd;&#xa;check=True&#xd;&#xa;patternType = '.tif'&#xd;&#xa;&#xd;&#xa;project = qgis.core.QgsProject.instance()&#xd;&#xa;&#xd;&#xa;MyRoot=qgis.core.QgsExpressionContextUtils.projectScope(project).variable('WATER_FLOW_DTMPATH')&#xd;&#xa;if MyRoot is None or MyRoot == '':&#xd;&#xa;    #MyRoot=QgsProject.instance().readPath(&quot;./&quot;)  #+'/'&#xd;&#xa;    iface.messageBar().pushMessage(&quot;ERRORE in WATER_FLOW_DTMPATH -&quot;,&quot;Usa: WATER FLOW Form Setup&quot;, level=Qgis.Critical)&#xd;&#xa;    iface.mainWindow().repaint()&#xd;&#xa;    check=False&#xd;&#xa;    &#xd;&#xa;elif not (os.path.exists(MyRoot)):&#xd;&#xa;    iface.messageBar().pushMessage(&quot;ERRORE in WATER_FLOW_DTMPATH -&quot;,&quot;Usa: WATER FLOW Form Setup&quot;, level=Qgis.Critical)&#xd;&#xa;    iface.mainWindow().repaint()&#xd;&#xa;    check=False    &#xd;&#xa;&#xd;&#xa;DTMNAME=qgis.core.QgsExpressionContextUtils.projectScope(project).variable('WATER_FLOW_DTMNAME')&#xd;&#xa;if DTMNAME is None or DTMNAME == ''  :&#xd;&#xa;    iface.messageBar().pushMessage(&quot;ERRORE in WATER_FLOW_DTMNAME -&quot;,&quot;Usa: WATER FLOW Form Setup&quot;, level=Qgis.Critical)&#xd;&#xa;    iface.mainWindow().repaint()&#xd;&#xa;    check=False    &#xd;&#xa;    &#xd;&#xa;elif not (os.path.exists(DTMNAME)):&#xd;&#xa;    iface.messageBar().pushMessage(&quot;ERRORE in WATER_FLOW_DTMNAME -&quot;,&quot;Usa: RVE_CTRN Form Stup&quot;, level=Qgis.Critical)&#xd;&#xa;    iface.mainWindow().repaint()&#xd;&#xa;    check=False    &#xd;&#xa;&#xd;&#xa;FDMODEL=qgis.core.QgsExpressionContextUtils.projectScope(project).variable('WATER_FLOW_FDMODEL')&#xd;&#xa;if FDMODEL is None or FDMODEL=='':&#xd;&#xa;    iface.messageBar().pushMessage(&quot;ERRORE in WATER_FLOW_FDMODEL -&quot;,&quot;Usa: WATER FLOW Form Setup&quot;, level=Qgis.Critical)&#xd;&#xa;    iface.mainWindow().repaint()&#xd;&#xa;    check=False    &#xd;&#xa;&#xd;&#xa;FDUPDOWN=qgis.core.QgsExpressionContextUtils.projectScope(project).variable('WATER_FLOW_FDUPDOWN')&#xd;&#xa;if FDUPDOWN is None or FDUPDOWN=='':&#xd;&#xa;    iface.messageBar().pushMessage(&quot;ERRORE in WATER_FLOW_FDUPDOWN -&quot;,&quot;Usa: WATER FLOW Form Setup&quot;, level=Qgis.Critical)&#xd;&#xa;    iface.mainWindow().repaint()&#xd;&#xa;    check=False    &#xd;&#xa;&#xd;&#xa;FDSTEP=qgis.core.QgsExpressionContextUtils.projectScope(project).variable('WATER_FLOW_FDSTEP')&#xd;&#xa;if FDSTEP is None or FDSTEP=='':&#xd;&#xa;    iface.messageBar().pushMessage(&quot;ERRORE in WATER_FLOW_FDSTEP -&quot;,&quot;Usa: WATER FLOW Form Setup&quot;, level=Qgis.Critical)&#xd;&#xa;    iface.mainWindow().repaint()&#xd;&#xa;    check=False    &#xd;&#xa;&#xd;&#xa;RESULT_Group=qgis.core.QgsExpressionContextUtils.projectScope(project).variable('WATER_FLOW_RESULT_Group')&#xd;&#xa;if RESULT_Group is None or RESULT_Group=='':&#xd;&#xa;    iface.messageBar().pushMessage(&quot;ERRORE in WATER_FLOW_RESULT_Group -&quot;,&quot;Usa: WATER FLOW Form Setup&quot;, level=Qgis.Critical)&#xd;&#xa;    iface.mainWindow().repaint()&#xd;&#xa;    check=False    &#xd;&#xa;else:&#xd;&#xa;    root = qgis.core.QgsProject.instance().layerTreeRoot()&#xd;&#xa;    group = root.findGroup(RESULT_Group)&#xd;&#xa;    if group is None:&#xd;&#xa;        iface.messageBar().pushMessage(&quot;ERRORE in WATER_FLOW_RESULT_Group -&quot;,&quot;Usa: WATER FLOW Form Setup&quot;, level=Qgis.Critical)&#xd;&#xa;        iface.mainWindow().repaint()&#xd;&#xa;        check=False    &#xd;&#xa;    &#xd;&#xa;if check==True:&#xd;&#xa;    # Ottieni il riferimento al nostro canvas della mappa&#xd;&#xa;    canvas = qgis.utils.iface.mapCanvas()&#xd;&#xa;&#xd;&#xa;    # Questo strumento QGIS emette un QgsPoint dopo ogni clic sulla mappa&#xd;&#xa;    click_point = QgsMapToolEmitPoint(canvas)&#xd;&#xa;&#xd;&#xa;    # Collega la funzione start_simulation al segnale canvasClicked dell'oggetto click_point&#xd;&#xa;    click_point.canvasClicked.connect(start_simulation)&#xd;&#xa;&#xd;&#xa;    # Imposta lo strumento sulla mappa&#xd;&#xa;    canvas.setMapTool(click_point)&#xd;&#xa;    iface.messageBar().clearWidgets()&#xd;&#xa;    msg=&quot; Fai click con il mouse per Avviare il Calcolo...&quot;&#xd;&#xa;    iface.messageBar().pushMessage(&quot;WATER FLOW &quot;+FDUPDOWN+&quot; Setup OK - &quot;,msg, level=Qgis.Success,duration = 3)&#xd;&#xa;    iface.mainWindow().repaint()&#xd;&#xa;" capture="0" shortTitle="" icon="" notificationMessage="" isEnabledOnlyWhenEditable="0" name="WATER_FLOW_Simulate_D-8" id="{d0789025-2eed-429e-89fd-94646cb752e1}" type="1">
+          <actionScope id="Feature"/>
+          <actionScope id="Canvas"/>
+        </actionsetting>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns>
+          <column hidden="0" width="-1" name="fid" type="field"/>
+          <column hidden="0" width="-1" name="NOME" type="field"/>
+          <column hidden="1" width="-1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+    geom = feature.geometry()
+    control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="NOME" editable="1"/>
+        <field name="fid" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="NOME" labelOnTop="0"/>
+        <field name="fid" labelOnTop="0"/>
+      </labelOnTop>
+      <reuseLastValue>
+        <field reuseLastValue="0" name="NOME"/>
+        <field reuseLastValue="0" name="fid"/>
+      </reuseLastValue>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression>"NOME"</previewExpression>
+      <mapTip enabled="1"></mapTip>
+    </maplayer>
+  </maplayers>
+</qlr>
