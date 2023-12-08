@@ -13,6 +13,7 @@ I parametri sono memorizzari in variabili utente nel progetto corrente:
 **WATER_FLOW_Simulate_D-8**
  Esegue il calcolo dellaliea di deflusso utilizzando im modello Flow Direction D-8 (celle adiacenti).
 
-[!IMPORTANT]
-Per ottenere risultati più dettagliati, utilizzare un DTM sul qual è stato eseguito un Fill Sinks ( a tal proposito è possibile utilizzare SAGA o TauDEM di Tarboton)
-
+**ATTENZIONE:**
+Per ottenere risultati più dettagliati, utilizzare un DTM sul qual è stato eseguito un Fill Sinks ( a tal proposito è possibile utilizzare SAGA o TauDEM di Tarboton).
+Con Direzione DOWN viene calcolato la linea di impluvio ( massima pendenza verso valle, linea di deflusso).
+Con Direzione UP viene calcolato la linea di displuvio ( massima pendenza verso monte).
