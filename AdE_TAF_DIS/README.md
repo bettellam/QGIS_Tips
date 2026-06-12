@@ -2,8 +2,6 @@
 
 **AdE_TAF_DIS** — Progetto QGIS per la gestione dei Punti Fiduciali Catastali
 
-> 🔗 Link diretto PDF: https://bettellam.github.io/QGIS_Tips/AdE_TAF_DIS/AdE_TAF_DIS_manuale.pdf
-
 ---
 
 Uno degli aspetti che i tecnici devono affrontare nelle operazioni catastali è reperire velocemente le informazioni riguardanti i Punti Fiduciali su cui appoggiare i propri rilievi.
@@ -371,4 +369,3 @@ Buon lavoro.
 
 - [Timár G., Baiocchi V., Lelo K. (2011) — *Geodetic Datums of the Italian Cadastral Systems* — Geographia Technica, No. 1, pp. 82–90](https://www.researchgate.net/publication/233406023_Geodetic_datums_of_the_Italian_cadastral_systems)
 - [borneo.name — Origini Locali Cassini-Soldner](https://www.borneo.name/coordinate/origini-locali)
-- [ArcGIS REST — Layer SEZIONI](https://cartografia.globogis.it/arcgis/rest/services/Fiduciali/IGM/MapServer)
