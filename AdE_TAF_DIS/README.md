@@ -1,8 +1,7 @@
 # Gestione TAF e DIS con download monografie dei Punti Fiduciali Catastali
 
 **AdE_TAF_DIS** — Progetto QGIS per la gestione dei Punti Fiduciali Catastali
-> 🔗 Link diretto : https://bettellam.github.io/QGIS_Tips/AdE_TAF_DIS/README.md
->
+
 > 🔗 Link diretto PDF: https://bettellam.github.io/QGIS_Tips/AdE_TAF_DIS/AdE_TAF_DIS_manuale.pdf
 
 ---
@@ -263,6 +262,7 @@ Dal PDF viene estratta la prima foto presente, che viene salvata come JPG con lo
 **Scope:** Feature
 
 Esegue le stesse funzioni del precedente, ma tenta inoltre di eseguire il **parsing di alcuni dati** presenti nelle monografie e aggiorna i corrispondenti campi del layer TAF (coordinate GB, LAT/LON, date, note, ecc.).
+<img src="img/image018.png" alt="Add Fields" width="80%"/><br>
 
 > ⚠️ Funzione sperimentale — non testata su tutte le tipologie di monografia.
 
@@ -272,9 +272,9 @@ Esegue le stesse funzioni del precedente, ma tenta inoltre di eseguire il **pars
 
 Nel layer TAF è predisposto con un Map Tip HTML che mostra la foto della monografia e un link al PDF al passaggio del mouse sul punto:
 
-<img src="img/image019.png" alt="Esempio monografia" width="60%"/>
+<img src="img/image019.png" alt="Map Tips 1" width="60%"/>
 
-<img src="img/image021.png" alt="Esempio monografia" width="60%"/>
+<img src="img/image021.png" alt="Map Tips 2" width="60%"/>
 
 ```html
 <style type="text/css"> 
