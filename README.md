@@ -1,8 +1,8 @@
 # QGIS_Tips
-# Gestione TAF e DIS con download monografie dei Punti Fiduciali Catastali
+## Gestione TAF e DIS con download delle monografie dei Punti Fiduciali Catastali
 
 **AdE_TAF_DIS** — Progetto QGIS per la gestione dei Punti Fiduciali Catastali
-> 🔗 Link diretto : https://bettellam.github.io/QGIS_Tips/AdE_TAF_DIS/README.md
+> 🔗 Link diretto: https://bettellam.github.io/QGIS_Tips/AdE_TAF_DIS/
 >
 > 🔗 Link diretto PDF: https://bettellam.github.io/QGIS_Tips/AdE_TAF_DIS/AdE_TAF_DIS_manuale.pdf
 ---
@@ -25,7 +25,7 @@ Con il download viene estratta dal PDF la prima foto presente, che verrà integr
   <img src="AdE_TAF_DIS/img/image001.png" alt="Copy Style → Actions" style="width:80%;" /><br>&nbsp;&nbsp;&nbsp;
 </div>
 
-> 🔗 Link diretto : https://bettellam.github.io/QGIS_Tips/AdE_TAF_DIS/README.md
+> 🔗 Link diretto: https://bettellam.github.io/QGIS_Tips/AdE_TAF_DIS/
 >
 > 🔗 Link diretto PDF: https://bettellam.github.io/QGIS_Tips/AdE_TAF_DIS/AdE_TAF_DIS_manuale.pdf
 ---
