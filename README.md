@@ -31,13 +31,13 @@ Con il download viene estratta dal PDF la prima foto presente, che verrà integr
 ---
 ## Simulate Water Flow
 Semplice utility implementata in azioni di QGis che individua la linea di deflusso dell'acqua su un versante.
-![image](https://github.com/bettellam/QGIS_Tips/assets/23143342/16bf10ae-1dca-406d-93de-956dbb0b44b5)
+![image](Simulate_water_Flow/img/water_flow_1.png)
 
 Due le azioni disponibili per il Layer **area_update_etrs89**:
 - **WATER_FLOW_Form_Setup**
  Si tratta di un form dove vengono settati i parametri di calcolo: DTM, UP/DOWN, STEP di calcolo.  
 I parametri sono memorizzati in variabili utente nel progetto corrente: 
-![image](https://github.com/bettellam/QGIS_Tips/assets/23143342/8952d823-9393-4abe-ba10-87f7b162b945)
+![image](Simulate_water_Flow/img/water_flow_2.png)
 
 - **WATER_FLOW_Simulate_D-8**
  Esegue il calcolo della linea di deflusso utilizzando il modello Flow Direction D-8 (celle adiacenti).
