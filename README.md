@@ -1,4 +1,6 @@
 # QGIS_Tips
+![Python](https://img.shields.io/badge/language-Python-blue?logo=python) ![QGIS](https://img.shields.io/badge/tool-QGIS-green?logo=qgis) ![GeoPackage](https://img.shields.io/badge/format-GeoPackage-yellow)
+
 ## Gestione TAF e DIS con download delle monografie dei Punti Fiduciali Catastali
 
 **Tecnologie:** Python, QGIS, GeoPackage
