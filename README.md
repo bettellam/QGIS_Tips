@@ -1,6 +1,8 @@
 # QGIS_Tips
 ## Gestione TAF e DIS con download delle monografie dei Punti Fiduciali Catastali
 
+**Tecnologie:** Python, QGIS, GeoPackage
+
 **AdE_TAF_DIS** — Progetto QGIS per la gestione dei Punti Fiduciali Catastali
 > 🔗 Link diretto: https://github.com/bettellam/QGIS_Tips/tree/main/AdE_TAF_DIS
 >
